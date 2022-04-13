@@ -141,6 +141,19 @@ cursor: pointer;
 
 /* преимущества компании */
 
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: 
+    clip-path: insert(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .properties-title {
 font-weight: 700;
 font-size: 14px;
@@ -229,8 +242,6 @@ color: var(--footer-main-text-color);
 color: var(--accent-color);
 }
 
-
-
 address {
 font-style: normal;
 }
@@ -274,3 +285,12 @@ line-height: 1.88x;
 
 color: var(--portfolio-main-text-color);
 }
+
+.container {
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid tomato;
+    }
