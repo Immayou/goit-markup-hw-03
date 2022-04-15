@@ -51,7 +51,7 @@ display: block;
 }
 
 .container {
-width: 1230px;
+width: 1200px;
 margin-left: auto;
 margin-right: auto;
 padding-left: 15px;
@@ -118,7 +118,7 @@ color: var(--header-nav-text-color);
 margin-right: 50px;
 }
 
-.head-btn-content {
+.head-btn-content:not(:last-child) {
 margin-right: 50px;
 }
 
@@ -173,9 +173,8 @@ line-height: 1.88;
 letter-spacing: 0.06em;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-min-width: 200;
+min-width: 200px;
 min-height: 50px;
-margin-bottom: 200px;
 
 color: var(--hero-btn-text-color);
 background-color: var(--accent-color);
@@ -283,6 +282,23 @@ margin-right: 0;
 background-color: var(--team-background-color);
 padding-top: 94px;
 padding-bottom: 94px;
+}
+
+.team-list {
+display: flex;
+}
+
+.team-item {
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+0px 1px 1px rgba(0, 0, 0, 0.14),
+0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
+width: calc(100%-90px)/4;
+}
+
+.team-item:not(:last-child) {
+margin-right: 30px;
 }
 
 .team-name,
