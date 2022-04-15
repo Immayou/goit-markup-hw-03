@@ -264,8 +264,10 @@ padding-bottom: 60px;
 
 .logo-secondary {
 color: var(--logo-secondary-color);
+display: block;
 margin-top: 0;
 margin-bottom: 20px;
+min-width: 145px;
 }
 
 .logo-secondary-accent {
@@ -277,31 +279,39 @@ color: var(--accent-color);
 color: var(--accent-color);
 }
 
-.footer-item,
+.footer-item-tel,
+.footer-item-mail,
 .footer-item-address {
 font-size: 14px;
 line-height: 1.71;
 }
 
-.footer-item {
+.footer-item-tel,
+.footer-item-mail {
 color: var(--footer-secondary-text-color);
 }
 
 .footer-item-address {
 color: var(--footer-main-text-color);
-margin-top: 0;
-margin-bottom: 9px;
+min-width: 231px;
 }
 
-.footer-item-address + .footer-item {
-    margin-top: 0;
-    margin-bottom: 9px;
+.footer-item:not(:last-child) {
+margin-top: 0;
+margin-bottom: 9px;  
+}
+
+.footer-item:last-child {
+margin-top: 0;
+margin-bottom: 0;
 }
 
 .footer-item-address:hover,
 .footer-item-address:focus,
-.footer-item:hover,
-.footer-item:focus {
+.footer-item-mail:hover,
+.footer-item-mail:focus,
+.footer-item-tel:hover,
+.footer-item-tel:focus {
 color: var(--accent-color);
 }
 
@@ -311,12 +321,24 @@ font-style: normal;
 
 /* Страница Портфолио */
 
+.examples {
+padding: 94px 0px;
+}
+
+.btn-list {
+margin-top: 0;
+margin-bottom: 50px;
+}
+
 .examples-btn-item {
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
+border-radius: 4px;
+border: 1px solid transparent;
+padding: 6px 22px;
 
 color: var(--portfolio-title-text-color);
 background-color: var(--portfolio-btn-bcg-color);
