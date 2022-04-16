@@ -85,8 +85,8 @@ color: var(--logo-primary-color);
 .logo {
 margin-right: 94px;
 display: block;
-padding-top: 32px;
-padding-bottom: 32px;
+padding-top: 25px;
+padding-bottom: 25px;
 }
 
 .logo-primary-accent,
@@ -150,6 +150,8 @@ color: var(--accent-color);
 .hero {
 background-color: var(--hero-background-color);
 text-align: center;
+padding-top: 200px;
+padding-bottom: 210px;
 }
 
 .hero-title {
