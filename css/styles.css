@@ -30,9 +30,8 @@ body {
     font-family: 'Roboto', 'Tahoma', sans-serif;
     letter-spacing: 0.03em;
 
-    background-color: var(--main-bcg-color);
     color: var(--properties-text-color);
-}
+    }
 
 /* шапка */
 
@@ -212,6 +211,8 @@ overflow: hidden;
 .properties {
 padding-top: 84px;
 padding-bottom: 94px;
+
+background-color: var(--main-bcg-color);
 }
 
 .properties-list {
@@ -265,6 +266,8 @@ margin-bottom: 50px;
 .work {
 padding-top: 0;
 padding-bottom: 94px;
+
+background-color: var(--main-bcg-color);
 }
 
 .work-list {
