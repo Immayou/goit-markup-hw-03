@@ -1,7 +1,7 @@
 
 :root {
     --head-background-color: #FFFFFF;
-    --main-bcg-color: #E5E5E5;
+    --main-bcg-color: #FFFFFF;
     --team-background-color: #F5F4FA;
     --hero-background-color: #2F303A;
     --footer-background-color: #2F303A;
@@ -19,7 +19,7 @@
     --team-bottom-text-color: #757575;
     --footer-main-text-color: #FFFFFF;
     --footer-secondary-text-color: rgba(255, 255, 255, 0.6);
-    --portfolio-bcg-color: #E5E5E5;
+    --portfolio-bcg-color: #FFFFFF;
     --portfolio-title-text-color: #212121;
     --portfolio-btn-text-color: #212121;
     --portfolio-btn-bcg-color: #F5F4FA;
